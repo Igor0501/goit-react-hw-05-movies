@@ -10,6 +10,7 @@ import {
   Footer,
   Text,
   IconLogo,
+  Href
 } from './Layout.styled';
 
 const Layout = () => {
@@ -19,13 +20,15 @@ const Layout = () => {
         <Header>
           <Logo>
             <IconLogo />
-            TMDB
+             TMDB
           </Logo>
           <nav>
             <Links to="/" end>
               Home
             </Links>
-            <Links to="/movies">Movie</Links>
+            <Links to="/movies">
+              Movie
+            </Links>
           </nav>
         </Header>
         <Suspense fallback={<Loader />}>

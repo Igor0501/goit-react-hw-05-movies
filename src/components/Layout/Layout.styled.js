@@ -63,7 +63,7 @@ export const Links = styled(NavLink)`
 
   &.active {
     color: white;
-    background-color: #064e8a;
+    background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
   }
 `;
 
@@ -85,4 +85,9 @@ export const IconLogo = styled(SiThemoviedatabase)`
   top: 5px;
   z-index: 1;
   opacity: 0.7;
+   text-decoration: underline;
+  fill: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
 `;
+
+
+
