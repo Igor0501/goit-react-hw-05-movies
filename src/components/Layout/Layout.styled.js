@@ -49,7 +49,7 @@ export const Header = styled.header`
 export const Logo = styled.p`
   font-weight: 700;
   font-size: 30px;
-  color: #064e8a;
+  color: #4481eb;
   margin: 0;
   margin-left: 10px;
 `;
@@ -81,6 +81,7 @@ export const IconLogo = styled(SiThemoviedatabase)`
   width: 30px;
   height: 30px;
   position: relative;
+  cursor: pointer;
   right: 6px;
   top: 5px;
   z-index: 1;

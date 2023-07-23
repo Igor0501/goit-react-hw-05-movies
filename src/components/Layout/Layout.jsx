@@ -1,5 +1,5 @@
 import { Suspense } from 'react';
-import { Outlet } from 'react-router-dom';
+import { Outlet, Link, useNavigate } from 'react-router-dom';
 
 import { Loader } from '../Loader/Loader';
 import {
@@ -10,17 +10,23 @@ import {
   Footer,
   Text,
   IconLogo,
-  Href
 } from './Layout.styled';
 
 const Layout = () => {
+  const navigate = useNavigate();
+
+  const handleLogoClick = () => {
+    // Навігація на головну сторінку
+    navigate('/');
+  };
+
   return (
     <>
       <Container>
         <Header>
-          <Logo>
+          <Logo onClick={handleLogoClick}>
             <IconLogo />
-             TMDB
+            TMDB
           </Logo>
           <nav>
             <Links to="/" end>

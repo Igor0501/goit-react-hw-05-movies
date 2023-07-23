@@ -40,9 +40,8 @@ export const LinkDetails = styled(Link)`
       width: 160px;
       height: 240px;
       display: block;
-      border-radius: 4px;
-      border: 1px solid rgba(43, 134, 197);
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+      border-radius: 14px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
       position: absolute;
       top: -140px;
       left: 400px;
@@ -55,7 +54,7 @@ export const LogoIcon = styled(FaFilm)`
   width: 20px;
   height: 20px;
   position: relative;
-  right: 6px;
+  right: 10px;
   top: 5px;
   z-index: 1;
   opacity: 0.7;
