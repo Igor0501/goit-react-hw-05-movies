@@ -1,5 +1,5 @@
 import { Suspense } from 'react';
-import { Outlet, Link, useNavigate } from 'react-router-dom';
+import { Outlet, useNavigate } from 'react-router-dom';
 
 import { Loader } from '../Loader/Loader';
 import {
